@@ -1,0 +1,40 @@
+.navbar {
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.logo {
+    font-weight: 500;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+.navButton {
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    padding: 10px 15px;
+    border-radius: 10px;
+    /* background-color: #fff; */
+    cursor: pointer;
+    color: cadetblue;;
+    font-weight: bold;
+}
+
+.navButton:hover{
+    scale: 102%;
+    transition: ease-in;
+    color: black;
+    font-weight: bolder;
+}
